@@ -1,0 +1,9 @@
+
+Installing ZAP in Linux
+
+Step 1 : Download zap from this offical website : https://www.zaproxy.org/download/
+step 2 : Open your terminal Swtich to root and type cd Downloads 
+step 3 : Now lets make it executable file by typing : chmod +x name_of_file_you_downloaded
+step 4 : after making it a executable file now type : ./your_file_name
+
+Its done!!
