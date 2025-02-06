@@ -29,12 +29,11 @@ Using **OWASP ZAP**, I identified a **missing CSP header** and exploited it by i
 - This allows **attackers to inject JavaScript** that can alter the page, steal data, or perform phishing attacks.
 
 ### ** Exploit - Injected JavaScript Code**
-I modified the website’s UI by injecting the following script in the browser console:  
+I modified the website’s UI by injecting the following script in the browser console: 
+```javascript
 -----------------------------------------------------------------------------------------------------------------------
 document.body.innerHTML = '<h1>Hi your website has been hacked!!!!</h1>';
 ------------------------------------------------------------------------------------------------------------------------
-
-
-
+```
 ![Screenshot 2025-02-06 205229](https://github.com/user-attachments/assets/b0b17d0b-f7fd-401f-baf9-b02ffdfee49c)![Screenshot 2025-02-06 205208](https://github.com/user-attachments/assets/3d63ee7f-1765-402f-9434-e7d5e22bc2fb)
 
