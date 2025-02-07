@@ -1,4 +1,4 @@
-# OWASP-ZAP XSS Attack!
+# OWASP-ZAP XSS Reflected Attack!
 
 
 ## ⚠️ Disclaimer  
